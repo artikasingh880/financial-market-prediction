@@ -7,7 +7,6 @@ scikit-learn
 tensorflow  # If using deep learning
 statsmodels  # If using ARIMA
 prophet  # If using Prophet
-echo "# financial-market-prediction" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
