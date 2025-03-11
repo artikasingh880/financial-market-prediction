@@ -5,6 +5,12 @@ import matplotlib.pyplot as plt
 import joblib  # If using a trained ML model
 from prophet import Prophet  # If using Prophet for forecasting
 
+import joblib
+
+# Load model with full path
+model = joblib.load(r"C:\Users\artik\financial_model.pkl")  
+
+
 # Load the trained model (example for ML models)
 model = joblib.load("financial_model.pkl")  # Change as per your model
 
